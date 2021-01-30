@@ -1,0 +1,260 @@
+body {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	color: #323232;
+	background-color: #FAFAFA;
+	font-family: 'Muli', sans-serif;
+	overflow-x: hidden;
+}
+#vds
+{
+	font-weight: 700;
+	float: left;
+	font-size: 22;
+}
+#navbar
+{
+	position: fixed;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: white;
+	border-bottom: 0.8px solid rgb(230,230,230);
+	z-index: 100000;
+}
+.innernav
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 810px;
+	margin: 0 auto;
+}
+.navtext
+{
+	padding-bottom: 20px;
+
+}
+ a
+ {
+	 text-decoration: none;
+ }
+
+ /* unvisited link */
+a:link {
+  color: #323232;
+}
+
+/* visited link */
+a:visited {
+  color: #323232;
+}
+
+/* mouse over link */
+a:hover {
+  color: #323232;
+}
+
+/* selected link */
+a:active {
+  color: #323232;
+}
+
+ li
+ {
+	 list-style-type: none;
+	 	padding-left: 30px;
+		color: white;
+		font-size: 19;
+ }
+
+.banner
+{
+	width: 100%;
+	min-height: 350px;
+	max-height: 380px;
+	background:white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 100px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.bannerhome
+{
+	width: 100%;
+	height: 250px;
+	background: url("bannerhome.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 100px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	border-bottom: 1px solid rgb(240,240,240);
+
+}
+.banner2
+{
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+.innerbanner
+{
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.bannercontent
+{
+	padding-top: 20px;
+	width: 400px;
+	margin-top: 70px;
+	max width: 500px;
+	text-align: left;
+	margin-left: 10px;
+	display: inline-block;
+	margin-right: 0px;
+}
+
+.img
+{
+	display: inline-block;
+	padding: 40px 70px 25px 40px;
+	float: right;
+	margin-top: 100px;
+}
+
+.bannercontent > #smalltext
+{
+	font-size: 16;
+	font-weight: 100;
+	line-height: 1.5;
+	padding-bottom: 90px;
+}
+.bannercontent > h1
+{
+	font-size: 40;
+	margin-top: 30px;
+}
+
+.bannercontent > a > button
+{
+	font-size: 20;
+	font-weight: 600;
+	background-color: #FF55B6;
+	border: none;
+	color: white;
+	padding: 8px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 8px;
+	border-bottom: 0px solid #DE409A;
+
+}
+
+#homebannerbutton
+{
+	background-color: white;
+	border-bottom: 5px solid rgb(235,235,235);
+	color: rgb(251,81,177);
+
+}
+
+.bannercontent > a > button:hover
+{
+	cursor: pointer;
+}
+
+.bannerimg
+{
+		background-image: url("mismobannerimg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 550px;
+	margin-top: -310px;
+	margin-right: -50px;
+	float: right;
+}
+
+.bannerimghome
+{
+	background-image: url("profile.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 300px;
+	width: 300px;
+	margin-top: 70px;
+	margin-right: 50px;
+	margin-left: 35px;
+	float: left;
+}
+
+.bannerimg2
+{
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 380px;
+	width: 380px;
+	border-radius: 30px;
+}
+
+.bannerimg2home
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 380px;
+	margin-top: 10px;
+	width: 100%;
+	border-radius: 7px;
+	border: 1px solid rgb(230,230,230);
+}
+
+#workingon
+{
+	background: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 380px;
+	margin-top: 10px;
+	width: 100%;
+	border: 2px solid rgb(240,240,240);
+	border-radius: 30px;
+
+}
+.bannerimg2home:hover
+{
+	transform: scale(1.006);
+	transition: 0.2s;
+}
+
+.footer
+{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	float: left;
+	color: #323232;
+}
+
+.innerfooter
+{
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 40px;
+}

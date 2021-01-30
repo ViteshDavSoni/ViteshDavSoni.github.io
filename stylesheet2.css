@@ -1,0 +1,285 @@
+body {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	color: #323232;
+	background-color: #FAFAFA;
+	font-family: 'Muli', sans-serif;
+	overflow-x: hidden;
+}
+#vds
+{
+	font-weight: 700;
+	float: left;
+	font-size: 22;
+}
+#navbar
+{
+	position: fixed;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: white;
+	border-bottom: 0.8px solid rgb(230,230,230);
+	z-index: 100000;
+}
+.innernav
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 810px;
+	margin: 0 auto;
+}
+.navtext
+{
+	padding-bottom: 20px;
+
+}
+ a
+ {
+	 text-decoration: none;
+ }
+
+ /* unvisited link */
+a:link {
+  color: #323232;
+}
+
+/* visited link */
+a:visited {
+  color: #323232;
+}
+
+/* mouse over link */
+a:hover {
+  color: #323232;
+}
+
+/* selected link */
+a:active {
+  color: #323232;
+}
+
+
+ li
+ {
+	 list-style-type: none;
+	 	padding-left: 30px;
+		color: white;
+		font-size: 19;
+ }
+
+
+.banner
+{
+	margin: 0 auto;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 100px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.innerbanner
+{
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.bannercontent
+{
+	margin: 0 auto;
+	margin-right: 20px;
+	margin-top: 90px;
+	color: black;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+.bannercontent > #smalltext
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 22;
+	font-weight: 200;
+	color: black;
+	margin-top: -10px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+.bannercontent > h1
+{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 55;
+	font-weight: 600;
+	color: black;
+	margin-top: -10px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.bannercontent > a > button
+{
+	margin: 0 auto;
+	width: 180px;
+	height: 45px;
+	font-size: 20;
+	background-color: #FF55B6;
+	border: none;
+	color: white;
+	border-radius: 9px;
+	border-bottom: 2px solid #DE409A;
+}
+
+ .buttonscontainer > a > button
+{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.buttonscontainer{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.characterOne
+{
+	background-image: url("CharacterOne.png");
+	width: 171px;
+	height: 116px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.characterTwo
+{
+	background-image: url("CharacterTwo.png");
+	width: 171px;
+	height: 116px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+		margin: 0 auto;
+	margin-top: 40px;
+}
+
+.phoneImg
+{
+	background-image: url("phoneImg.png");
+	width: 100%;
+	height: 504px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.levelsImg
+{
+	background-image: url("levelsImg.png");
+	width: 100%;
+	height: 504px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.trainImg
+{
+	background-image: url("trainImg.png");
+	width: 100%;
+	height: 404px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.logoImg
+{
+	background-image: url("Equ Grid logo.png");
+	width: 150px;
+	height: 150px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top:-50px;
+	margin-bottom: 30px;
+}
+.footer
+{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	float: left;
+	color: #323232;
+}
+
+.innerfooter
+{
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background:  #74c9ff;
+  color: white;
+	padding: 10px;
+	font-weight: 600;
+	border: none;
+	outline: none;
+}
+
+.button1:hover {
+  background-color: rgb(81, 185, 255);
+}
+
+
+@media screen and (max-width: 900px) {
+	.bannerhome
+	{
+		height: 650px;
+	}
+	.bannercontent > #smalltext
+	{
+		width: 100%;
+		margin: 0px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.bannercontent
+	{
+		margin: 0px;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.bannercontent
+	{
+		padding-top: 100px;
+	}
+
+}
