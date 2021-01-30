@@ -147,33 +147,9 @@ a:active {
 	margin: 0 auto;
 }
 
-.characterOne
-{
-	background-image: url("CharacterOne.png");
-	width: 171px;
-	height: 116px;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	margin: 0 auto;
-	margin-top: 50px;
-}
-
-.characterTwo
-{
-	background-image: url("CharacterTwo.png");
-	width: 171px;
-	height: 116px;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-		margin: 0 auto;
-	margin-top: 40px;
-}
-
 .phoneImg
 {
-	background-image: url("phoneImg.png");
+	background-image: url("../images/phoneImg.png");
 	width: 100%;
 	height: 504px;
 	background-position: center;
@@ -185,7 +161,7 @@ a:active {
 
 .levelsImg
 {
-	background-image: url("levelsImg.png");
+	background-image: url("../images/levelsImg.png");
 	width: 100%;
 	height: 504px;
 	background-position: center;
@@ -196,7 +172,7 @@ a:active {
 }
 .trainImg
 {
-	background-image: url("trainImg.png");
+	background-image: url("../images/trainImg.png");
 	width: 100%;
 	height: 404px;
 	background-position: center;
@@ -207,7 +183,7 @@ a:active {
 }
 .logoImg
 {
-	background-image: url("Equ Grid logo.png");
+	background-image: url("../images/Equ Grid logo.png");
 	width: 150px;
 	height: 150px;
 	background-position: center;
